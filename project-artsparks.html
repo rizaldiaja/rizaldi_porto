@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cookie Project | UI/UX Case Study</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- NAVBAR (Sama seperti index) -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">Porto<span>.</span></a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="allwork.html">All Work</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="resume.html">Resume</a></li>
+                <li><a href="testimonials.html">Testimonials</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- HEADER PROYEK -->
+    <section class="project-header">
+        <div class="container">
+            <a href="allwork.html" class="back-link">&larr; Kembali ke Semua Proyek</a>
+            <h1>ArtSparks</h1>
+            <p class="project-tagline">Aplikasi Mobile Resep Masakan</p>
+            
+            <div class="project-meta">
+                <div class="meta-item">
+                    <strong>Role</strong>
+                    <span>UI/UX Designer</span>
+                </div>
+                <div class="meta-item">
+                    <strong>Tools</strong>
+                    <span>Figma, Adobe Illustrator</span>
+                </div>
+                <div class="meta-item">
+                    <strong>Timeline</strong>
+                    <span>4 Minggu</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- GAMBAR UTAMA (HERO IMAGE) -->
+    <section class="project-hero-image">
+        <div class="container">
+            <!-- Ganti link ini dengan mockup utama proyek Anda -->
+            <img src="artsparks.png" alt="Cookie App Mockup">
+        </div>
+    </section>
+
+    <!-- KONTEN CASE STUDY -->
+    <section class="project-content">
+        <div class="container content-wrapper">
+            
+            <!-- BAGIAN 1: LATAR BELAKANG -->
+            <div class="content-block">
+                <h2>1. Latar Belakang & Masalah</h2>
+                <p><strong>Konteks:</strong> Proyek ini merupakan pengembangan antarmuka Website (UI/UX Design) untuk Artsparks, sebuah platform one-stop solution yang memudahkan orang tua untuk mendaftarkan anak-anak mereka ke berbagai kelas seni, seperti melukis, musik, tari, dan lainnya.</p>
+                <p><strong>Masalah:</strong> Saat ini, orang tua seringkali merasa kesulitan mencari informasi aktivitas seni yang terpercaya untuk anak. Proses pendaftaran biasanya dilakukan secara manual (via WhatsApp atau telepon), yang memakan waktu dan rentan terjadi kesalahan administrasi. Selain itu, jadwal kelas yang tidak transparan dan proses pembayaran yang terpisah membuat pengalaman pengguna menjadi kurang efisien.</p>
+                <p><strong>Tujuan:</strong> Merancang antarmuka website yang intuitif, ramah orang tua, dan aman. Pengguna dapat dengan mudah mencari kelas seni berdasarkan kategori (melukis, musik, dll), melihat profil pengajar, memilih jadwal, dan melakukan pembayaran secara seamless dalam satu alur yang mulus.</p>
+            </div>
+
+            <!-- BAGIAN 2: RISET & USER PERSONA -->
+            <div class="content-block">
+                <h2>2. Riset Pengguna</h2>
+                <p>Saya melakukan wawancara dengan 3 orang tua muda yang aktif mencari kegiatan ekstrakurikuler untuk anak mereka. Dari riset ini, saya membuat User Persona:</p>
+                
+                    <img src="userart.png" alt="User Persona" class="content-img">
+                    
+            </div>
+
+             <!-- BAGIAN 3: WIREFRAME & DESIGN PROCESS -->
+            <div class="content-block">
+                <h2>3. ERD Relation</h2>
+                <p class="caption">Konsep Relasi Utama</p>
+                <p><strong>1. Users (Parents) memiliki banyak Registrations (Pendaftaran).</strong> </p>
+                <p><strong>2. Courses (Kelas Seni) memiliki banyak Schedules (Jadwal) dan Instructors (Pengajar).</strong> </p>
+                <p><strong>3. Registrations adalah parent dari detail pembelian (terhubung ke Transactions).</strong> </p>
+                <p><strong>4. Transactions digunakan untuk melacak status pembayaran (Payment Status).</strong> </p>
+
+                <img src="erdart.png" alt="Wireframe" class="content-img">
+                
+            </div>
+
+            <!-- BAGIAN 4: WIREFRAME & DESIGN PROCESS -->
+            <div class="content-block">
+                <h2>4. Proses Desain (Wireframe)</h2>
+                
+                <p><strong># Home & Search:</strong> Halaman utama yang menampilkan highlight kelas (seperti Banner promo), kategori seni (Melukis, Musik, Tari), serta fitur pencarian dengan filter lokasi dan usia anak.</p>
+                <p><strong># Course Detail :</strong> Halaman di mana pengguna dapat melihat detail lengkap kelas, silabus, profil pengajar, galeri foto kelas, serta jadwal yang tersedia.</p>
+
+                <img src="wireart.png" alt="Wireframe" class="content-img">
+            </div>
+
+            <!-- BAGIAN 5: HASIL AKHIR (SISTEM APLIKASI) -->
+            <div class="content-block">
+                <h2>5. Hasil Akhir (Final Design)</h2>
+                <p><strong>Pendekatan Visual (UI):</strong> Desain akhir menggunakan palet warna hangat (oranye soft dan krem) yang dipadukan dengan putih untuk menciptakan kesan ceria, kreatif, aman, dan terpercaya. Tipografi menggunakan sans-serif yang ramah dan mudah dibaca. Ikon-ikon dibuat playful namun tetap profesional, mencerminkan dunia anak-anak.</p>
+                
+                <!-- GRID UNTUK FOTO SISTEM APLIKASI -->
+                <div class="image-grid">
+                    <img src="art5.png" alt="Screen 1"> 
+                    
+                </div>
+                <p><strong># Quick Class Discovery:</strong> Pada halaman utama, pengguna disajikan card kelas yang menampilkan gambar anak-anak sedang berkegiatan, nama kelas, dan harga. Ini memudahkan orang tua untuk memindai pilihan dengan cepat.</p>
+                <p><strong># Seamless Registration Flow:</strong> Pada halaman detail, saya merancang alur pendaftaran yang jelas. Pengguna hanya perlu memilih jadwal, memasukkan data anak, dan langsung menuju halaman pembayaran tanpa perlu mengisi form berulang kali.</p>
+                <p><strong># Integrated Payment Method:</strong> Halaman checkout menampilkan ringkasan pesanan dan opsi pembayaran populer (Virtual Account, E-Wallet, Kartu Kredit) dengan ikon yang jelas. Ini mengurangi keraguan pengguna saat melakukan transaksi finansial.</p>
+            </div>
+
+            <!-- BAGIAN 6: KESIMPULAN -->
+            <div class="content-block">
+                <h2>6. Kesimpulan & Pembelajaran</h2>
+                <p><strong>Hasil:</strong> Desain website Artsparks berhasil menyatukan kebutuhan orang tua akan kemudahan administrasi dengan kebutuhan anak akan aktivitas seni yang menyenangkan. Antarmuka yang clean, dominan warna hangat, dan alur pendaftaran yang singkat membuat platform ini terasa ramah dan mudah digunakan.
+                <p><strong>Pembelajaran (Learning):</strong> Melalui proyek ini, saya belajar bahwa Visual Hierarchy sangat penting dalam aplikasi multi-fungsi. Menempatkan tombol "Daftar Kelas" dan "Lihat Jadwal" secara strategis membantu pengguna fokus pada tujuan utama mereka. Saya juga belajar bahwa pemilihan warna yang tepat (seperti oranye pastel) tidak hanya berfungsi estetis, tetapi juga membangun kepercayaan (trust) orang tua terhadap platform yang berhubungan dengan anak dan biaya pendidikan.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="contact">
+        <div class="container contact-content">
+            <div class="contact-text">
+                <h2>Contact</h2>
+                <p>Feel free to reach out!</p>
+            </div>
+            <div class="contact-links">
+                <a href="mailto:email@anda.com">✉️ rizaldiwork27@gmail.com</a>
+                <a href="https://www.linkedin.com/in/rizaldi-syibran/">🔗 linkedin.com/in/rizaldi-syibran</a>
+                
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
